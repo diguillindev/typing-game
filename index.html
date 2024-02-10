@@ -1,17 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <title>Typing game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <title>Tu Página</title>
 </head>
 <body>
-  <h1>Typing game!</h1>
-  <p>Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
-  <p id="quote"></p> <!-- This will display our quote -->
-  <p id="message"></p> <!-- This will display any status messages -->
-  <div>
-    <input type="text" aria-label="current word" id="typed-value" /> <!-- The textbox for typing -->
-    <button type="button" id="start">Start</button> <!-- To start the game -->
-  </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre nosotros</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Inicio</h1>
+      <!-- Contenido de la sección de inicio -->
+    </section>
+    <section id="about">
+      <h1>Sobre nosotros</h1>
+      <!-- Contenido de la sección "Sobre nosotros" -->
+    </section>
+    <section id="services">
+      <h1>Servicios</h1>
+      <!-- Contenido de la sección de servicios -->
+    </section>
+    <section id="portfolio">
+      <h1>Portafolio</h1>
+      <!-- Contenido de la sección de portafolio -->
+    </section>
+    <section id="contact">
+      <h1>Contacto</h1>
+      <!-- Contenido de la sección de contacto -->
+    </section>
+  </main>
+  <button onclick="topFunction()" id="myBtn" title="Volver arriba">Top</button>
+  <footer>
+    <!-- Contenido del pie de página -->
+  </footer>
   <script src="script.js"></script>
+  
 </body>
 </html>
