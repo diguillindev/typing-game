@@ -18,23 +18,23 @@ section {
 }
 
 #home {
-  background-color: #4CAF50; /* Verde */
+  background-color: #808080; /* Verde */
 }
 
 #about {
-  background-color: #008CBA; /* Azul */
+  background-color: #808080; /* Azul */
 }
 
 #services {
-  background-color: #f44336; /* Rojo */
+  background-color: #808080; /* Rojo */
 }
 
 #portfolio {
-  background-color: #FFD700; /* Amarillo */
+  background-color:#808080; /* Amarillo */
 }
 
 #contact {
-  background-color: #9932CC; /* Violeta */
+  background-color: #808080; /* Violeta */
 }
 
 /* Estilos para el menú de navegación */
