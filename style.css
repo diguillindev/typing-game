@@ -3,62 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-/* Estilos para cada sección con colores aleatorios */
-section {
-  padding: 50px;
-  text-align: center;
-  color: white;
-  box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
-  width: 100%; /* Ocupa todo el ancho disponible */
-  display: block; /* Establece el comportamiento predeterminado como bloque */
-  min-height: 100vh; /* Altura del viewport */
-  height: auto; /* Altura automática para adaptarse al contenido */
-}
-
-#home {
-  background-color: #808080; /* Verde */
-}
-
-#about {
-  background-color: #808080; /* Azul */
-}
-
-#services {
-  background-color: #808080; /* Rojo */
-}
-
-#portfolio {
-  background-color:#808080; /* Amarillo */
-}
-
-#contact {
-  background-color: #808080; /* Violeta */
-}
-
-/* Estilos para el menú de navegación */
-header {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  background-color: #333;
-  z-index: 100; /* Asegura que el menú sea visible sobre otros elementos al hacer scroll */
-}
-
-header ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 60px;
-}
-
-header ul li a {
-  text-decoration: none;
-  color: white;
+  background-color: #808080;
 }
 
 /* Estilos para el botón scroll-to-top */
@@ -95,3 +40,12 @@ header ul li a {
     padding: 20px;
   }
 }
+
+@media (max-width: 375px) {
+  section {
+    padding: 10px;
+    display: block; /* Cambiar a bloque para que las secciones se apilen verticalmente */
+    width: 100%; /* Ocupar todo el ancho disponible */
+  }
+}
+
